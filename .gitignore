@@ -1,0 +1,8 @@
+.github
+.gitee
+.idea
+.vscode
+node_modules
+*.log
+*.lock
+public
