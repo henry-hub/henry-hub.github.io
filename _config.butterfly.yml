@@ -4,7 +4,7 @@
 
 menu:
  首页: / || fas fa-home
- 说说: /artitalk/ || fas fa-comment
+ 说说: /shuoshuo/ || fas fa-comment
  归档: /archives/ || fas fa-archive
  标签: /tags/ || fas fa-tags
  分类: /categories/ || fas fa-folder-open
@@ -35,8 +35,8 @@ artitalk:
   enable: true
   appId: 0XLPF71GfzJ9f9YWIpXuoJF1-MdYXbMMI
   appKey: ximRo8QJ4nqzrRAf3TApHMTF
-  path:
-  js:
+  path: shuoshuo
+  js: https://unpkg.com/artitalk
   option:
   front_matter:
 
@@ -663,7 +663,7 @@ subtitle:
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: 3
+  source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
