@@ -4,10 +4,14 @@
 
 # Site
 title: Henry's Blog
-subtitle: ''
-description: ''
+subtitle: '1111111'
+description: '代码搬用工'
 keywords:
+  - 333
+  - 444
+  - 555
 author: Henry
+email: henry.box@outlook.com
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -97,7 +101,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: redefine
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
