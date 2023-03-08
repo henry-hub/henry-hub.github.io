@@ -4,7 +4,7 @@
 
 menu:
  首页: / || fas fa-home
- 说说: /shuoshuo/ || fas fa-comment
+#  说说: /shuoshuo/ || fas fa-comment
  归档: /archives/ || fas fa-archive
  标签: /tags/ || fas fa-tags
  分类: /categories/ || fas fa-folder-open
@@ -33,7 +33,7 @@ code_word_wrap: false
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  enable: true
+  enable: false
   appId: 0XLPF71GfzJ9f9YWIpXuoJF1-MdYXbMMI
   appKey: ximRo8QJ4nqzrRAf3TApHMTF
   path: shuoshuo
@@ -54,11 +54,13 @@ copy:
 #   icon: link || the description
 social:
 # fab fa-github: https://github.com/henry-hub || Github
- fab fa-weibo: https://weibo.com/ihubpub || 微博
- fab fa-zhihu: https://www.zhihu.com/people/ihub || 知乎
-# fab fa-linkedin: https://linkedin.com/in/ihubpub || Linkedin
-# fab fa-twitter: https://twitter.com/henryli93 || Twitter
- fas fa-envelope: mailto:henry.box@outlook.com || Email
+ iconfont icon-gitee: https://gitee.com/henry-hub || Gitee
+ iconfont icon-weibo: https://weibo.com/ihubpub || 微博
+ iconfont icon-zhihu: https://www.zhihu.com/people/ihub || 知乎
+ iconfont icon-leetcode: https://leetcode.cn/u/henry-hub || 力扣
+#  iconfont icon-linkedin: https://linkedin.com/in/ihubpub || Linkedin
+ iconfont icon-twitter: https://twitter.com/henryli93 || Twitter
+ iconfont icon-youxiang: mailto:henry.box@outlook.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -910,7 +912,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  # - <link rel="stylesheet" href="/xxx.css">
+  - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3939244_cqlqv2xwmo7.css">
   bottom:
   # - <script src="xxxx"></script>
 
