@@ -12,6 +12,7 @@ menu:
 #   Music: /music/ || fas fa-music
 #   Movie: /movies/ || fas fa-video
  友链: /link/ || fas fa-link
+ 留言: /guestbook/ || fas fa-comments
 # 关于: /about/ || fas fa-heart
 
 nav:
@@ -110,7 +111,7 @@ favicon: /img/favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img: /img/avatar.svg
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -920,12 +921,12 @@ CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版的主題只能設置為 local )
-  internal_provider: local
+  internal_provider: unpkg
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: jsdelivr
+  third_party_provider: unpkg
 
   # Add version number to CDN, true or false
   version: false
