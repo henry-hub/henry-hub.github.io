@@ -76,6 +76,10 @@ algolia_search:
 local_search:
   enable: true
   preload: true
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
   CDN:
 
 # Docsearch
@@ -437,12 +441,6 @@ daovoice:
   enable: false
   app_id:
 
-# gitter
-# https://gitter.im/
-gitter:
-  enable: false
-  room:
-
 # crisp
 # https://crisp.chat/en/
 crisp:
@@ -505,10 +503,10 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-# - name: google-site-verification
-#   content: 9lhkNbBVzAMu59kI-GtL6HQOjEcQf6wSudqhWnsS4Xg
-# - name: baidu-site-verification
-#   content: codeva-u00kwQ5Qzh
+ - name: google-site-verification
+   content: 9lhkNbBVzAMu59kI-GtL6HQOjEcQf6wSudqhWnsS4Xg
+ - name: baidu-site-verification
+   content: codeva-u00kwQ5Qzh
  - name: msvalidate.01
    content: F4A9C2A5467DDA72E188A26470ABCC81
 
@@ -785,6 +783,9 @@ darkmode:
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
   autoChangeMode: 1
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: # 8
+  end: # 22
 
 # show scroll percent in scroll-to-top button
 rightside_scroll_percent: true
@@ -944,8 +945,8 @@ CDN:
   # translate:
   # local_search:
   # algolia_js:
-  # algolia_search_v4:
-  # instantsearch_v4:
+  # algolia_search:
+  # instantsearch:
   # docsearch_js:
   # docsearch_css:
   # pjax:
@@ -971,8 +972,8 @@ CDN:
   # instantpage:
   # typed:
   # pangu:
-  # fancybox_css_v4:
-  # fancybox_v4:
+  # fancybox_css:
+  # fancybox:
   # medium_zoom:
   # snackbar_css:
   # snackbar:
@@ -980,7 +981,7 @@ CDN:
   # fireworks:
   # click_heart:
   # ClickShowText:
-  # fontawesomeV6:
+  # fontawesome:
   # flickr_justified_gallery_js:
   # flickr_justified_gallery_css:
   # aplayer_css:
@@ -992,3 +993,10 @@ CDN:
   # artalk_js:
   # artalk_css:
   # busuanzi:
+
+# abcjs (乐谱渲染)
+# See https://github.com/paulrosen/abcjs
+# ---------------
+abcjs:
+  enable: false
+  per_page: true
