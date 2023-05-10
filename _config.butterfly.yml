@@ -9,7 +9,7 @@ menu:
  标签: /tags/ || fas fa-tags
  分类: /categories/ || fas fa-folder-open
 # 清单||fas fa-heartbeat:
-#   Music: /music/ || fas fa-music
+ 音乐: https://music.liheng.website || fas fa-music
 #   Movie: /movies/ || fas fa-video
  友链: /link/ || fas fa-link
  留言: /guestbook/ || fas fa-comments
