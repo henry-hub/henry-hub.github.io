@@ -127,7 +127,7 @@ disable_top_img: false
 index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://api.cyrilstudio.top/bing/image.php
+default_top_img: https://minimalistic-wallpaper.demolab.com/?random
 
 # The banner image of archive page
 archive_img:
